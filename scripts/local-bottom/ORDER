@@ -1,0 +1,4 @@
+/scripts/local-bottom/growroot "$@"
+[ -e /conf/param.conf ] && . /conf/param.conf
+/scripts/local-bottom/mobile-root "$@"
+[ -e /conf/param.conf ] && . /conf/param.conf
